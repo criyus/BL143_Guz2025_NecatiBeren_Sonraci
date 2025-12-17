@@ -23,12 +23,18 @@ Açıklama: *(Bu ödevin konusunu buraya yazabilirsiniz)*
 
 ## Ödev 2
 📂 `odev2/`  
-Açıklama: *(Bu ödevin konusunu buraya yazabilirsiniz)*  
-- Kullanılan konular: …  
-- Çalıştırma:  
-  ```bash
-  cd odev2
-  python odev2.py
+**Açıklama:** Bu proje, Jupyter Notebook (`.ipynb`) formatında hazırlanmış bir **"Akıllı Gün Planlayıcı"** uygulamasıdır. Kullanıcıdan alınan günlük faaliyet sürelerini (uyku, ders, serbest zaman) analiz ederek veri doğrulaması yapar ve günün verimlilik raporunu sunar.
+
+- **Kullanılan konular:**
+  * **Hata Yönetimi:** `try-except` bloğu ile geçersiz veri girişlerinin (metin, sembol vb.) kontrolü.
+  * **Döngüler:** `while True` yapısı ile doğru veri girilene kadar kullanıcıdan giriş isteme.
+  * **Koşullu Karar Yapıları:** `if-elif-else` blokları ile süre limitlerinin (24 saat kontrolü) ve performans durumunun belirlenmesi.
+  * **Veri Tipleri:** `float` (ondalıklı sayı) dönüşümleri ve dinamik metin biçimlendirme.
+
+- **Çalıştırma:**
+  1. Bu klasördeki `odev2.ipynb` dosyasını **Google Colab**, **Jupyter Notebook** veya **VS Code** (Jupyter eklentisi ile) üzerinden açın.
+  2. Kod hücrelerini yukarıdan aşağıya doğru sırayla çalıştırın.
+  3. Terminal/Konsol ekranında istenen saat bilgilerini girerek sonucu görüntüleyin.
 
 ## Ödev 3
 📂 `odev3/`  
